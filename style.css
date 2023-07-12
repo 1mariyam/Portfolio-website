@@ -15,6 +15,7 @@ html{
 
 
 
+
 /* End of Reset and common styles */
 .section-1{
     width: 100%;
@@ -63,6 +64,11 @@ html{
             font-weight: 700;
             color: #333;
             background-color: #fff;
+            border: .3rem solid #333;
+            padding: .5rem 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.3rem;
+
 
         }
         
