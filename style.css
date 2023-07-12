@@ -12,6 +12,11 @@
 html{
     font-size: 62.5%;
 }
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -22,10 +27,7 @@ html{
     height: 100vh;
     background: linear-gradient(rgba(255, 255, 255.2), rgba(255, 255, 255, 0.3)),url(/images/bg.jpg)center no-repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
 
     .section-1-heading {
         font-size: 6rem;
