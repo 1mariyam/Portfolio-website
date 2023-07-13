@@ -145,7 +145,7 @@ html{
   margin: 1.5rem 0;
   border-radius: .3rem;
   box-shadow: .2rem .2rem 1rem #555;
-  
+  position: relative;
   }
   .progress-text{
     position: absolute;
