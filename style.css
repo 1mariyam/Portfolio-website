@@ -171,21 +171,37 @@ html {
   align-self: start;
 }
 
-
 .service i {
   font-size: 10rem;
   color: #888;
   margin-bottom: 2rem;
-  text-shadow: 0.1rem 0.1rem 0.5rem #555;
+  text-shadow: 0.1rem 0.1rem 0.5rem 0.5rem #555;
 }
-.service h2 {
+
+.section h2 {
   font-size: 2rem;
   color: #fff;
   background-color: #777;
   width: 25rem;
   letter-spacing: 0.3rem;
-  transform: skew(-10ged);
-  box-shadow: 0.2rem 0.2rem 0.5rem;
+  transform: skewY(-10deg);
+  box-shadow: 0.2rem 0.2rem 0.5rem #555;
 }
 
 /* end of section 2 */
+
+/* Section 3 */
+
+.section-3{
+  width: 100%;
+  height: 100%;
+  padding: 10rem 0;
+  background-color: #ccf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-wrapper{
+  width: 80%;
+}
